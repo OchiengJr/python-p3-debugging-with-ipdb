@@ -3,6 +3,15 @@
 import ipdb
 
 def tracing_the_function():
+    """
+    Demonstrates tracing using ipdb.
+
+    This function prints a message, triggers the ipdb debugger,
+    and prints another message after debugging.
+
+    Usage:
+    - Run this function to observe ipdb debugging in action.
+    """
     inside_the_function = "We're inside the function"
     print(inside_the_function)
     print("We're about to stop because of ipdb!")
